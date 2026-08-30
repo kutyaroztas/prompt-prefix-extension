@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: sans-serif; width: 320px; padding: 12px; }
+  h3 { margin: 0 0 8px; font-size: 14px; }
+  .item { border: 1px solid #ddd; border-radius: 6px; padding: 8px; margin-bottom: 8px; }
+  .item input, .item textarea { width: 100%; box-sizing: border-box; margin-top: 4px; font-size: 12px; }
+  .item textarea { resize: vertical; min-height: 50px; }
+  .row { display:flex; justify-content: space-between; align-items:center; gap:6px; }
+  .row input { flex: 1; }
+  button { cursor: pointer; font-size: 12px; }
+  .del { background:#fee2e2; border:1px solid #fca5a5; border-radius:4px; }
+  #add, #save { width: 100%; padding: 6px; margin-top: 6px; }
+  #save { background:#2563eb; color:#fff; border:none; border-radius:6px; }
+</style>
+</head>
+<body>
+  <h3>Prompt Onekleri</h3>
+  <div id="list"></div>
+  <button id="add">+ Yeni Onek</button>
+  <button id="save">Kaydet</button>
+  <script src="popup.js"></script>
+</body>
+</html>
